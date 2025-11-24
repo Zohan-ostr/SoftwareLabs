@@ -1,0 +1,28 @@
+
+TYPE
+	DOOR_STATES : 
+		(
+		ST_INIT,
+		ST_UNKNOWN,
+		ST_OPEN,
+		ST_CLOSE,
+		ST_ACC_POS,
+		ST_ACC_NEG,
+		ST_POS,
+		ST_NEG,
+		ST_DEC_POS,
+		ST_DEC_NEG
+		);
+	trololo : 
+		(
+		CMD_ENABLED := 15,
+		STATE_SWITCHED_ON := 35,
+		CMD_SHUTDOWN := 6
+		);
+	tralala : 
+		(
+		STATE_READY := 33,
+		CMD_SWITCHED_ON := 7,
+		STATE_DISABLED := 64
+		);
+END_TYPE
