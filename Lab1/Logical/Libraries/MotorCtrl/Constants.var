@@ -1,0 +1,3 @@
+VAR CONSTANT
+	New_Variable : REAL := 0.0;
+END_VAR
